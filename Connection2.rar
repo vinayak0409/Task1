@@ -1,0 +1,9 @@
+create database Student;
+use Student;
+create table stud (rno int, name varchar(20), marks int);
+insert into stud values (1, 'Vinayak', 70);
+insert into stud values (2, 'Tillu', 80);
+insert into stud values (3, 'Vilas', 40);
+insert into stud values (4, 'Virat', 50);
+insert into stud values (5, 'Tanvi', 60);
+select * from stud;
